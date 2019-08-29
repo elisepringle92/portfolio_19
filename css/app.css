@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+  margin: 2;
+  padding: 2;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+h1{
+    font-size: 5em;
+    margin-bottom: 25px;
+    font-family: cursive;
+  }
