@@ -2256,7 +2256,7 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
+  /* color: white; */
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {

@@ -1,2 +1,2 @@
 $(document).foundation();
-$.backstretch("img/paintme.PNG");
+$.backstretch("img/watercolorbg.png");
