@@ -112,10 +112,18 @@
   </div> -->
 
         <div class="row small-up-2 medium-up-3 large-up-4">
-          <div class="column">
-            <img class="thumbnail" img src="img/painting1small.png">
-            <h5>Describing this painting. WxH</h5>
-          </div>
+          <div class="columns">
+            <img class="thumbnail" img src="img/painting1small.png" data-toggle="exampleModal8">
+<div class="full reveal" id="exampleModal8" data-reveal>
+<p> Description of Painting </p>
+<img src="img/painting1.jpg" alt="Introspective Cage">
+<button class="close-button" data-close aria-label="Close reveal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+</div>
+</div>
+
           <div class="column">
             <img class="thumbnail" img src="img/painting2small.png">
             <h5>Description of painting</h5>
@@ -139,12 +147,13 @@
 
 
   <script src="js/vendor/jquery.js"></script>
-  <script src="js/vendor/what-input.js"></script>
   <script src="js/vendor/foundation.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
   <script src="js/vendor/jquery.backstretch.min.js"></script>
   <script src="js/app.js"></script>
   <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-  <script>
+<script>
     $(document).foundation();
   </script>
   </body>
